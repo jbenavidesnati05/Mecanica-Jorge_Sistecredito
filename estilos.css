@@ -1,0 +1,78 @@
+*{
+    margin: O;
+    padding:0;
+}
+
+body{
+    background-color: #3a3d47;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.container{
+    width:1200px;
+    background-color: white;
+
+}
+.superior{
+    background-color: #1551a1;
+    overflow: hidden;
+}
+.logo{
+    float: left;
+    width: 300px;
+    padding: 35px;
+}
+
+/* estilos para el menu */
+.menu{
+    float: left;
+    padding: 30px;
+}
+
+.opciones li{
+    float: left;
+    list-style: none;    
+}
+
+.opciones li a{
+    color: white;
+    padding: 20px;
+    text-decoration: none;
+    border: 1px solid white;
+}
+.titulo{
+    color: rgb(211, 149, 14);
+    font-size: larger;
+    text-align: center;
+}
+.opciones li a:hover{
+    background-color: rgb(19, 37, 97);
+}
+
+/* estilos para el cuerpo */
+
+.cuerpo{
+    overflow: hidden;
+}
+
+.caja{
+    float: left;
+    width: auto;
+    margin: 9.5px;
+}
+
+.subtitulo{
+    background-color: #0e233d;
+}
+
+.servicios{
+    color: white;
+    text-align: center;
+    padding: 5px 0;
+    margin: 5px;
+}
+
+.efecto:hover{
+    opacity: 0.5;
+    cursor: pointer;
+}
