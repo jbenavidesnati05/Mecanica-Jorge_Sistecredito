@@ -1,6 +1,7 @@
 *{
     margin: 0;
     padding:0;
+    align-items: center;
 }
 
 body{
@@ -10,7 +11,7 @@ body{
 }
 
 .container{
-    width:1200px;
+    width:1178px;
     background-color: white;
 
 }
@@ -43,12 +44,15 @@ body{
     border: 1px solid white;
 }
 .titulo{
-    color: rgb(7, 34, 90);
+    color: rgb(211, 218, 231);
     font-size: 25px;
     text-align: center;
     height: 50px;
+    background-color: #0d3569;
     
 }
+
+/* DESPUES DE CREAR UNA CLASE CREAS ETIQUETAS SE DEBEN LLAMAR ASI */
 .opciones li a:hover{
     background-color: rgb(19, 37, 97);
 }
@@ -58,6 +62,15 @@ body{
 .cuerpo{
     overflow: hidden;
 }
+.slider-01{
+width: 1200px;
+
+}
+.slider01:hover{
+opacity: 0.8;
+cursor: pointer;
+filter: blur(2px);
+}
 
 .caja{
     float: left;
@@ -65,6 +78,7 @@ body{
     margin: 5px;
     border: 1px solid white;
     background-color: aliceblue;
+    
 }
 
 .subtitulo{
@@ -84,8 +98,9 @@ body{
 }
 
 .contenido{
-    padding: 15px;
-    text-align: justify;
+    padding: 20px;
+    /* text-align: justify; */
+    
 
 }
 .boton{
@@ -94,9 +109,9 @@ body{
     background-color: #0e233d;
     color: white;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
-    margin: 20px 0;
-    border: 2px solid #0e5210; /* Green */
-    width: 30%;
+    margin: 10px 0;
+    /* border: 2px solid #0e5210; Green */
+    width: 120px;
 }
 
 .boton:hover{
@@ -105,22 +120,24 @@ body{
 }
 
 /* estilos para footer */
-.pie{
-    background-color: #111922;
+ .pie{
+    background-color: #4c7bb1;
     
     
 }
 
 .izquierda{
     float: left;
-    width: 550px;
+    width: 500px;
     padding: 20px;
+    /* background-color: #1551a1; */
 }
 
 .derecha{
     float: left;
-    width: 550px;
+    width: 500px;
     padding: 20px;
+    /* background-color: #1551a1; */
 }
 
 .abajo{
